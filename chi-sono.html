@@ -20,6 +20,19 @@
     </style>
     
 </head>
+<style>
+    .card {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .card-body {
+        flex-grow: 1;
+    }
+</style>
+
+
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
@@ -92,15 +105,14 @@
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img src="IMG-20230626-WA0022.jpg" class="card-img-top" alt="Volontariato" onclick="toggleText('volontariato-text')">
+                    <img src="IMG-20230626-WA0022.jpg" class="card-img-top" alt="Volontariato" onclick="toggleText('volontariato-text')" style="object-fit: cover; object-position: 60% 80%;">
                     <div class="card-body bg-dark text-light rounded-bottom" id="volontariato-text" style="display: none;">
                         <h5 class="card-title">Volontariato</h5>
                         <p class="card-text">Attualmente partecipo a progetti di volontariato e attività extracurriculari presso l'associazione "Insieme è più bello" A.P.S. In questa esperienza, collaboro con altri volontari per organizzare eventi e attività che supportano la comunità locale. Questo mi ha permesso di sviluppare abilità di comunicazione, organizzazione e lavoro di squadra, aiutandomi a crescere sia personalmente che professionalmente. Essere parte di questa realtà mi ha anche insegnato l'importanza del sostegno reciproco e dell'impegno sociale.</p>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+            
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
